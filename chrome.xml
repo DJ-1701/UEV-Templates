@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+  <Name>Google Chrome</Name>
+  <ID>Google-Chrome</ID>
+  <Version>2</Version>
+  <Author>
+    <Name>DJ-1701</Name>
+  </Author>
+  <Processes>
+    <Process>
+      <Filename>chrome.exe</Filename>
+    </Process>
+  </Processes>
+  <Settings>
+    <File>
+      <Root>
+        <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+      </Root>
+      <Path>Google\Chrome\User Data</Path>
+      <FileMask>First Run</FileMask>
+    </File>
+    <File>
+      <Root>
+        <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+      </Root>
+      <Path>Google\Chrome\User Data</Path>
+      <FileMask>Local State</FileMask>
+    </File>
+    <File>
+      <Root>
+        <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+      </Root>
+      <Path>Google\Chrome\User Data\Default</Path>
+      <FileMask>Preferences</FileMask>
+    </File>
+    <File>
+      <Root>
+        <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+      </Root>
+      <Path>Google\Chrome\User Data\Default</Path>
+      <FileMask>Secure Preferences</FileMask>
+    </File>
+    <File>
+      <Root>
+        <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+      </Root>
+      <Path>Google\Chrome\User Data\Default</Path>
+      <FileMask>Bookmarks</FileMask>
+    </File>
+    <File>
+      <Root>
+        <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+      </Root>
+      <Path>Google\Chrome\User Data\Default</Path>
+      <FileMask>Cookies</FileMask>
+    </File>
+    <File>
+      <Root>
+        <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+      </Root>
+      <Path>Google\Chrome\User Data\Default</Path>
+      <FileMask>Cookies-journal</FileMask>
+    </File>
+    <File>
+      <Root>
+        <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+      </Root>
+      <Path>Google\Chrome\User Data\Default</Path>
+      <FileMask>Favicons</FileMask>
+    </File>
+    <File>
+      <Root>
+        <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+      </Root>
+      <Path>Google\Chrome\User Data\Default</Path>
+      <FileMask>Favicons-journal</FileMask>
+    </File>
+  </Settings>
+</SettingsLocationTemplate>
